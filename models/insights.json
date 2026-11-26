@@ -1,0 +1,324 @@
+{
+  "clips_total": 3600,
+  "clip_seconds": 2,
+  "class_counts": {
+    "an_arabiensis": 900,
+    "an_funestus": 900,
+    "culex_pipiens": 900,
+    "background": 900
+  },
+  "features": {
+    "wingbeat_hz": {
+      "title": "Wingbeat frequency",
+      "unit": "Hz",
+      "min": 250,
+      "max": 900,
+      "edges": [
+        250.0,
+        304.17,
+        358.33,
+        412.5,
+        466.67,
+        520.83,
+        575.0,
+        629.17,
+        683.33,
+        737.5,
+        791.67,
+        845.83,
+        900.0
+      ],
+      "classes": {
+        "an_arabiensis": {
+          "n": 900,
+          "median": 415.5,
+          "q1": 301.0,
+          "q3": 458.25,
+          "share_pct": [
+            30.67,
+            5.11,
+            13.22,
+            29.89,
+            15.11,
+            4.89,
+            0.56,
+            0.0,
+            0.11,
+            0.22,
+            0.11,
+            0.11
+          ]
+        },
+        "an_funestus": {
+          "n": 900,
+          "median": 480.5,
+          "q1": 300.0,
+          "q3": 534.0,
+          "share_pct": [
+            29.44,
+            3.78,
+            7.0,
+            5.89,
+            21.44,
+            26.33,
+            5.44,
+            0.67,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "culex_pipiens": {
+          "n": 900,
+          "median": 449.5,
+          "q1": 289.0,
+          "q3": 507.0,
+          "share_pct": [
+            34.78,
+            5.33,
+            2.89,
+            12.22,
+            27.11,
+            14.11,
+            2.56,
+            0.11,
+            0.0,
+            0.67,
+            0.11,
+            0.11
+          ]
+        },
+        "background": {
+          "n": 900,
+          "median": 301.0,
+          "q1": 284.75,
+          "q3": 354.0,
+          "share_pct": [
+            56.0,
+            20.56,
+            10.11,
+            4.44,
+            3.67,
+            1.67,
+            1.56,
+            0.33,
+            1.0,
+            0.22,
+            0.11,
+            0.33
+          ]
+        }
+      },
+      "story": "The typical wingbeat tone is highest for An. funestus (480 Hz), then Culex (450 Hz), then An. arabiensis (416 Hz). The ranges overlap a lot, so pitch alone cannot name the species. The model also has to use the harmonics and how the sound changes over the 2 seconds, which is what the spectrogram CNN learns."
+    },
+    "centroid_hz": {
+      "title": "Brightness (spectral centroid)",
+      "unit": "Hz",
+      "min": 300,
+      "max": 1500,
+      "edges": [
+        300.0,
+        400.0,
+        500.0,
+        600.0,
+        700.0,
+        800.0,
+        900.0,
+        1000.0,
+        1100.0,
+        1200.0,
+        1300.0,
+        1400.0,
+        1500.0
+      ],
+      "classes": {
+        "an_arabiensis": {
+          "n": 900,
+          "median": 822.7,
+          "q1": 712.69,
+          "q3": 912.24,
+          "share_pct": [
+            2.0,
+            3.44,
+            5.44,
+            11.78,
+            20.67,
+            28.78,
+            15.11,
+            6.22,
+            3.22,
+            1.22,
+            0.78,
+            1.33
+          ]
+        },
+        "an_funestus": {
+          "n": 900,
+          "median": 830.41,
+          "q1": 705.24,
+          "q3": 959.14,
+          "share_pct": [
+            1.0,
+            2.44,
+            5.33,
+            14.78,
+            19.33,
+            22.67,
+            15.56,
+            10.0,
+            4.67,
+            1.78,
+            0.89,
+            1.56
+          ]
+        },
+        "culex_pipiens": {
+          "n": 900,
+          "median": 791.74,
+          "q1": 665.97,
+          "q3": 910.1,
+          "share_pct": [
+            1.22,
+            3.33,
+            9.67,
+            16.67,
+            21.11,
+            20.89,
+            13.78,
+            6.22,
+            2.89,
+            1.67,
+            1.33,
+            1.22
+          ]
+        },
+        "background": {
+          "n": 900,
+          "median": 572.03,
+          "q1": 468.93,
+          "q3": 783.04,
+          "share_pct": [
+            10.56,
+            22.89,
+            21.22,
+            11.33,
+            10.0,
+            5.78,
+            3.89,
+            4.11,
+            3.0,
+            2.44,
+            1.22,
+            3.56
+          ]
+        }
+      },
+      "story": "Mosquito clips are brighter, with a typical centre of 792 to 830 Hz, against 572 Hz for background noise. The three species are almost identical here, so brightness helps answer whether a mosquito is present, not which one."
+    },
+    "tonal_pct": {
+      "title": "Tonal strength",
+      "unit": "% of energy on the wingbeat and its harmonics",
+      "min": 0,
+      "max": 60,
+      "edges": [
+        0.0,
+        5.0,
+        10.0,
+        15.0,
+        20.0,
+        25.0,
+        30.0,
+        35.0,
+        40.0,
+        45.0,
+        50.0,
+        55.0,
+        60.0
+      ],
+      "classes": {
+        "an_arabiensis": {
+          "n": 900,
+          "median": 20.97,
+          "q1": 12.6,
+          "q3": 33.07,
+          "share_pct": [
+            2.33,
+            13.67,
+            18.11,
+            13.0,
+            13.0,
+            9.78,
+            7.67,
+            7.11,
+            6.0,
+            3.11,
+            2.56,
+            3.67
+          ]
+        },
+        "an_funestus": {
+          "n": 900,
+          "median": 19.41,
+          "q1": 12.07,
+          "q3": 32.13,
+          "share_pct": [
+            1.67,
+            14.78,
+            21.44,
+            14.33,
+            10.67,
+            8.56,
+            7.56,
+            5.22,
+            4.56,
+            3.44,
+            1.56,
+            6.22
+          ]
+        },
+        "culex_pipiens": {
+          "n": 900,
+          "median": 19.45,
+          "q1": 11.45,
+          "q3": 31.15,
+          "share_pct": [
+            1.22,
+            18.11,
+            17.67,
+            14.78,
+            11.33,
+            10.44,
+            6.78,
+            5.33,
+            4.22,
+            3.44,
+            2.44,
+            4.22
+          ]
+        },
+        "background": {
+          "n": 900,
+          "median": 9.72,
+          "q1": 5.69,
+          "q3": 19.17,
+          "share_pct": [
+            19.33,
+            31.78,
+            15.67,
+            8.89,
+            7.67,
+            4.44,
+            3.89,
+            2.78,
+            1.78,
+            1.33,
+            1.22,
+            1.22
+          ]
+        }
+      },
+      "story": "In a typical mosquito clip 19 to 21% of the energy sits on the wingbeat and its harmonics, about twice the 10% of background noise. A buzz is a clean tone with overtones, while room noise is spread out. Like brightness, it separates mosquito from no mosquito better than it separates species."
+    }
+  }
+}

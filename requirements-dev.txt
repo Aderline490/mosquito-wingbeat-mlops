@@ -1,0 +1,5 @@
+locust==2.32.10
+jupyter
+nbclient
+ipykernel
+huggingface_hub>=1.0

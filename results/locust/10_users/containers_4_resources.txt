@@ -1,0 +1,4 @@
+mosquito-wingbeat-api-3 cpu=15.53% mem=296.7MiB / 2GiB
+mosquito-wingbeat-api-4 cpu=46.63% mem=287.1MiB / 2GiB
+mosquito-wingbeat-api-2 cpu=52.40% mem=356.9MiB / 2GiB
+mosquito-wingbeat-api-1 cpu=29.83% mem=599.1MiB / 2GiB

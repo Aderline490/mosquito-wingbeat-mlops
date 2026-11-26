@@ -1,0 +1,155 @@
+{
+  "version": 1,
+  "training_seconds": 2011.6,
+  "epochs_run": 37,
+  "validation": {
+    "samples": 800,
+    "accuracy": 0.615,
+    "loss": 0.9220033740778537,
+    "precision_macro": 0.5933299081544927,
+    "recall_macro": 0.615,
+    "f1_macro": 0.5953940244590628,
+    "roc_auc_ovr": 0.8299395833333334,
+    "cohen_kappa": 0.4866666666666667,
+    "confusion_matrix": [
+      [
+        106,
+        34,
+        51,
+        9
+      ],
+      [
+        44,
+        137,
+        10,
+        9
+      ],
+      [
+        72,
+        49,
+        54,
+        25
+      ],
+      [
+        1,
+        2,
+        2,
+        195
+      ]
+    ],
+    "per_class": {
+      "an_arabiensis": {
+        "precision": 0.47533632286995514,
+        "recall": 0.53,
+        "f1-score": 0.5011820330969267,
+        "support": 200.0
+      },
+      "an_funestus": {
+        "precision": 0.6171171171171171,
+        "recall": 0.685,
+        "f1-score": 0.6492890995260664,
+        "support": 200.0
+      },
+      "culex_pipiens": {
+        "precision": 0.46153846153846156,
+        "recall": 0.27,
+        "f1-score": 0.34069400630914826,
+        "support": 200.0
+      },
+      "background": {
+        "precision": 0.819327731092437,
+        "recall": 0.975,
+        "f1-score": 0.8904109589041096,
+        "support": 200.0
+      },
+      "accuracy": 0.615,
+      "macro avg": {
+        "precision": 0.5933299081544927,
+        "recall": 0.615,
+        "f1-score": 0.5953940244590628,
+        "support": 800.0
+      },
+      "weighted avg": {
+        "precision": 0.5933299081544927,
+        "recall": 0.615,
+        "f1-score": 0.5953940244590628,
+        "support": 800.0
+      }
+    }
+  },
+  "test": {
+    "samples": 800,
+    "accuracy": 0.67125,
+    "loss": 0.7601398591215434,
+    "precision_macro": 0.6753497094125894,
+    "recall_macro": 0.67125,
+    "f1_macro": 0.6668826294919555,
+    "roc_auc_ovr": 0.8839895833333333,
+    "cohen_kappa": 0.5616666666666666,
+    "confusion_matrix": [
+      [
+        129,
+        31,
+        30,
+        10
+      ],
+      [
+        49,
+        117,
+        13,
+        21
+      ],
+      [
+        66,
+        21,
+        103,
+        10
+      ],
+      [
+        2,
+        7,
+        3,
+        188
+      ]
+    ],
+    "per_class": {
+      "an_arabiensis": {
+        "precision": 0.524390243902439,
+        "recall": 0.645,
+        "f1-score": 0.57847533632287,
+        "support": 200.0
+      },
+      "an_funestus": {
+        "precision": 0.6647727272727273,
+        "recall": 0.585,
+        "f1-score": 0.6223404255319149,
+        "support": 200.0
+      },
+      "culex_pipiens": {
+        "precision": 0.6912751677852349,
+        "recall": 0.515,
+        "f1-score": 0.5902578796561605,
+        "support": 200.0
+      },
+      "background": {
+        "precision": 0.8209606986899564,
+        "recall": 0.94,
+        "f1-score": 0.8764568764568764,
+        "support": 200.0
+      },
+      "accuracy": 0.67125,
+      "macro avg": {
+        "precision": 0.6753497094125894,
+        "recall": 0.67125,
+        "f1-score": 0.6668826294919555,
+        "support": 800.0
+      },
+      "weighted avg": {
+        "precision": 0.6753497094125893,
+        "recall": 0.67125,
+        "f1-score": 0.6668826294919554,
+        "support": 800.0
+      }
+    }
+  }
+}
