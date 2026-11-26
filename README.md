@@ -1,6 +1,6 @@
 # Mosquito Species from Wingbeat Sound: an End-to-End ML Pipeline
 
-**Video demo:** [YouTube link](ADD_YOUTUBE_LINK_HERE)
+**Video demo:** [YouTube link](https://youtu.be/IK1q60HMkD0)
 **App URL:** http://localhost:8080 (runs in Docker, see [Setup](#setup))
 **API docs:** http://localhost:8080/docs
 
