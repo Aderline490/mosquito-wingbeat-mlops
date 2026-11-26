@@ -203,6 +203,7 @@ mosquito-wingbeat-mlops/
 │   └── manifest.csv              # recording id and night of every clip
 ├── models/
 │   ├── wingbeat_model.keras      # model in service (Keras format)
+│   ├── wingbeat_model.h5         # same model saved as .h5 (TensorFlow/Keras HDF5)
 │   ├── baseline_model.keras      # unoptimized baseline for comparison
 │   ├── metrics.json
 │   ├── baseline_metrics.json
